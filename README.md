@@ -2,6 +2,7 @@
 
 A simple bot that transcribes speech in a Discord voice chat using [DeepSpeech](https://github.com/mozilla/DeepSpeech) and shares it with [DCC-Client](https://github.com/ilyatsykunov/DiscordCC-Client) users using the [PubNub API](https://www.pubnub.com/).
 
+![DiscordCC-Screenshot](https://user-images.githubusercontent.com/37341595/118252568-d0749380-b4a0-11eb-8efa-e37de031c247.jpg)
 
 ## Setup
 
