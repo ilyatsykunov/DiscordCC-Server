@@ -13,12 +13,9 @@ dotenv.config();
 const client = new discord.Client();
 exports.client = client;
 const pubnub = new PubNub({
-    publishKey: process.env.PUBNUB_PUBLISH_KEY,
-    subscribeKey: process.env.PUBNUB_SUBSCRIBE_KEY,
-    secretKey: process.env.PUBNUB_SECRET
-    //publishKey: "ADD PUBLISH KEY",
-    //subscribeKey: "ADD SUBSCRIBE KEY",
-    //secretKey: "ADD SECRET KEY"
+    publishKey: "ADD PUBLISH KEY",
+    subscribeKey: "ADD SUBSCRIBE KEY",
+    secretKey: "ADD SECRET KEY"
 });
 exports.pubnub = pubnub;
 
@@ -107,5 +104,4 @@ client.on('message', message => {
     }
 });
 
-//client.login("ADD DISCORD BOT TOKEN");
-client.login(process.env.DISCORD_BOT_TOKEN);
+client.login("ADD DISCORD BOT TOKEN");
